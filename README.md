@@ -29,11 +29,11 @@ An handler interface class for projects involving my modified [Staples Easy Butt
 ## Installation
 
 Download the repository as a zip
-![Downloading the repo]()
+![Downloading the repo](img/DownloadZip.png)
 
 After obtaining a local copy of the library, import the library in the [Arduino IDE](https://create.arduino.cc/):
 
-![Importing the library]()
+![Importing the library](img/Import.png)
 
 ### Library Overview
 This library provides a total of 2 classes:

@@ -24,7 +24,7 @@ An handler interface class for projects involving my modified [Staples Easy Butt
     - [void init()](#void-init)
     - [void handle()](#void-handle)
   - [Events](#events)
-  - **[Implementation Example](#example)**
+  - **[Implementation example](#implementation-example)**
 
 ## Installation
 
@@ -144,7 +144,7 @@ Handler events are abstract and by default set to return directly after executio
 |`virtual void whileIdle(unsigned long ms)`|Polled while the button is idling. The button is in a idle state when it is _**not activated**_ (See [activated()](#bool-activated)). The parameter indicates how long the button has already maintained a idle state|
 |`virtual void whileActivated(unsigned long ms)`|Polled while the button is activated. (See [activated()](#bool-activated)). The parameter indicates how long the button has already maintained a activated state|
 
-#### Example
+#### Implementation example
 
 The following example shows how a very simple implementation of `IEasyButtonHandler` that reports `onPush()`, `onQuickPushed()` and `onComplete()` on the serial bus.
 

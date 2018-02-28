@@ -181,6 +181,7 @@ MyEasyButtonHandler handler(eb);
 
 void setup() {
   Serial.begin(9600);
+  handler.init();
 }
 
 void loop() {

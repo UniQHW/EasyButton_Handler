@@ -52,13 +52,13 @@ The constructor defines the `pin` member which is used to read the buttons state
 **Parameters**:
 
 |Parameter|Description|
-|--------|-----------|
+|---------|-----------|
 |`uint8_t _pin`|Sets the pin that is used to read the buttons state|
 
 #### Members
 
-|Member|Access|Description|
-|------|-----------|
+|Member       |Access |Description                                        |
+|-------------|-------|---------------------------------------------------|
 |`uint8_t pin`|Private|Defines the pin that is used to receive button data|
 
 #### Member Functions
@@ -114,8 +114,8 @@ The constructor is provided with a pointer to the EasyButton object that will be
 
 #### Members
 
-|Member|Access|Description|
-|------|-----------|
+|Member          |Access |Description                                                   |
+|----------------|-------|--------------------------------------------------------------|
 |`EasyButton *eb`|Private|Points to the EasyButton object that is handled by the handler|
 
 #### Member Functions

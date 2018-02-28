@@ -33,9 +33,10 @@ public:
     eb = _eb;
   }
 
+  void init();
+
 private:
   EasyButton *eb;
-  void init();
 
 protected:
 

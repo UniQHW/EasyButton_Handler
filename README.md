@@ -121,7 +121,7 @@ The constructor is provided with a pointer to the EasyButton object that will be
 #### Member Functions
 
 ##### `void init()`
-> Access: Private
+> Access: Public
 
 Waits for the EasyButton to enter a idle state before proceeding with any other actions.
 
